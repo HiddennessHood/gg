@@ -1,0 +1,72 @@
+* {
+margin: 0;
+padding: 0;
+background: #18181b;
+}
+.site{
+width: 100%;
+height: 100%;
+display: flex;
+}
+.playerzone{
+width: calc(100% - 340px);
+height: 100%;
+display: block;
+border: 0;
+}
+.player{
+width: 100%;
+height: 100%;
+border: 0;
+}
+.chatzone{
+width: 340px;
+height: 100%;
+display: block;
+border: 0;
+}
+.chat{
+width: 100%;
+height: calc(100% - 25px);
+border: 0;
+}
+.tab {
+display: flex;
+}
+.tab button {
+background-color: #101012;
+font-weight: bold;
+color: #999999;    
+outline: none;
+border: none;
+cursor: pointer;
+}
+.tab button:hover {
+color: #ffffff;
+}
+.tab button.active {
+color: #ffffff;
+}
+#chatswitch button {
+width: calc(100%/2);
+height: 25px;
+}
+#goodgamebutton {
+background-color: #101012;
+border: none;
+}
+#goodgamebutton.active {
+background-color: #0d1221;
+border: none;
+}
+#twitchbutton {
+background-color: #090c17;
+border-left: 2px solid #263255;
+border-right: 2px solid #090c17;
+border-top: none;
+border-bottom: none;
+}
+#twitchbutton.active {
+background-color: #18181b;
+border: none;
+}
